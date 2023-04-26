@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@400;600;700&display=swap");
+
+
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+.link-login {
+    color: blue;
+    text-decoration: underline;
+}
+body { background-color: seashell;
+  font-family: "Poppins", sans-serif;
+}
+
+.navegador{
+    background-color: #E8D7A4;
+    
+}
+
+
+.navbarButtons{
+     display:flex;
+     gap: 25px;
+     align-items: center;
+     margin-left: 25px;
+}
+.botonNavbar {
+    border-radius: 10px;
+}
+
+.buscador{
+    width:30vw
+    
+}
+@media screen and (max-width: 600px) {
+    .buscador {
+        width: 100vw;
+    }
+    
+}
+
+
+
+.botonNavbar:hover{
+    background-color: rgb(244, 85, 85);
+    
+}
+
+.navbarLogin{
+    background-color: #E8D7A4;
+}
+
+
+.footer{
+    background-color: rgb(80, 75, 75);
+    color: #e73700;
+    margin-top: 50px;
+    width: 100%;
+    padding: 45px;
+    
+}
+.column-redes ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content:first baseline  ;
+}
+.logo-footer img {
+    margin-top:1.3rem ;
+}
+.footer-links  {
+    color: #aeaeae;
+    transition: all 100ms ease;
+}
+.footer-links:hover {
+    color: #fff;
+}
+
+.derechos{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 15px 10px;
+    width: 100%;
+    
+}
+
+.b-login {
+    background-color:#E73700
+}
+
+.bordes01 {
+    border-radius: 25px;
+   
+}
+
+.cards-container {
+    scroll-snap-type: x mandatory;
+    margin-top: 2rem;    
+}
+.card-content {
+    scroll-snap-align: start;
+    border-radius: 25px;
+    box-shadow: 0px 10px 39px -19px rgba(0,0,0,0.75);
+    transition: all 200ms ease;
+    padding: 10px;
+}
+.card-content:hover{
+    transform: translateY(-3px);
+} 
+.card-title {
+    font-weight: 700;
+}
+.card-price p {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.buy-button{
+    text-decoration: none;
+    padding: 5px 15px;
+    border: 2px solid #252525;
+    color: #252525;
+    border-radius: 25px;
+    transition: all 200ms ease;
+}
+.buy-button:hover{
+    color: #fff;
+    background-color: #252525;
+}
+
+.img1 {
+    width: auto;
+    height: 80%;
+    margin-right: 50px;
+}
+
+strong {
+    background-color: #E73700;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+
+del {
+    color: #454545
+}
+.card-text {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+.banner-text {
+    height: auto;
+    display: flex;
+    padding-top: 4rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 25px 0px 0px 25px;
+}
+.banner-text h2 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    width: 79%;
+}
+.color-word{
+    color: #E73700;
+}
+.sesion-buttons{
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 2rem;
+
+}
+.login-button {
+    text-decoration: none;
+    color:#fff;
+    background-color: #252525;
+    
+    padding: 10px 35px;
+    text-align: center;
+    border-radius: 25px;
+    text-transform: capitalize;
+    transition: all 200ms ease;
+}
+.login-button:hover{
+    color: #fff;
+    background-color: #E73700;
+    
+}
+.register-button {
+    text-decoration: none;
+    color: #E73700;
+    border: 2px solid #E73700;;
+    padding: 10px 35px;
+    border-radius: 25px;
+    text-transform: capitalize;
+    transition: all 200ms ease;
+}
+.register-button:hover{
+    color: #fff;
+    background-color: #E73700;
+}
+.banner-pic{
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 25px 25px 0;
+    
+}
+.banner-pic img {
+    width: 85%;
+    height:auto ;
+    object-fit:contain;
+}
+.botonCarrito {
+    transition: all 100ms ease;
+     padding: 8px;
+     border-radius: 15px;
+}
+.botonCarrito:hover{
+    background-color: rgb(244, 85, 85);
+}
+
+.section-banner{
+    background-color: #E73700;
+    padding: 3rem 0;
+}
+.section-banner .container .row{
+    background-color: #fff;
+    height: auto;
+    border-radius: 25px;
+}
+
+.img1 {
+    border-radius: 10%;
+}
+
+.fondoregister {
+    background-color: rgb(189, 121, 54);
+    border-radius: 25px;
+    
+}
+.imgvintage {
+    max-width: 360px;
+    height: auto;
+    border-radius: 25px;
+}
+.categories{
+    padding-top: 3rem;
+}
+.categories-title,
+.offers-title {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.categories-title h3,
+.offers-title h3 {
+    font-weight: 600;
+}
+.offers-title{
+    margin-top: 3rem;
+}
+.categories-title p {
+    color: #454545;
+}
+.cat-img{
+    border-radius: 25px;
+}
+.categories-card h4 {
+    text-align: center;
+}
+.categories-card{
+    margin-top: 1rem;    
+}
+ 
+
+
+
+/* Productos */
+
+.btn-product{
+    background-color: #E73700;
+    color: white;
+}
+
+.banner-category{
+    height: 40hv;
+    background-image:  url(../src/1.jpg), linear-gradient(rgb(163, 135, 135), rgb(175, 194, 8));
+    background-size: cover;
+    background-position: 69%;
+}
+
+.banner-category-sofa{
+    height: 40hv;
+    background-image:  url(../src/sofa-banner.jpeg), linear-gradient(rgb(163, 135, 135), rgb(175, 194, 8));
+    background-size: cover;
+    background-position: 69%;
+}
+
+.price-product{
+    color: #E73700;
+    font-weight: 600;
+}
+
+.title-product{
+    font-weight: bold;
+}
+
+.row-comentarios{
+    border: 1px solid rgb(124, 124, 124);
+}
+
+.people-container{
+    position: relative;
+    display: flex;
+    align-items: end;
+    flex-direction: row;
+}
+
+.people-review-image{
+    height: 70px;
+    width: 71px;
+    border-radius: 50%;
+}
+
+.people-review-name{
+    vertical-align: middle;
+    align-self: center;
+}
+
+.p-review{
+    line-height: 2;
+}
+
+
+.bi-star-fill{
+    color: #fbd600;
+    
+}
+
+.paginationContainer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.paginationContainer a{
+    color: #E73700;
+}
+
+.boton-color:hover{background: color;}
+
+ @media screen and (max-width: 600px) {
+    iframe {
+        width: 90vw; 
+        
+    }
+
+ }
